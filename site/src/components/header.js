@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => {
     >
       <h1 style={{ margin: 0 }}>
         <Link to="/" sx={{ color: "text", textDecoration: "none" }}>
-          COVID-19 Fall i Sverige
+          COVID-19 Sverige
         </Link>
       </h1>
       <h4>

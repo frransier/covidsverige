@@ -238,7 +238,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="COVID-19 spridning i Sverige" />
+      <SEO title="COVID-19 i Sverige" />
       <div style={{ width: "100%", height: "100vh", fontDisplay: "swap" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBO8H3ggKEXrZwUW9Hz7apfoiceAgAjIjE" }}
