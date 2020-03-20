@@ -11,7 +11,7 @@ import "tippy.js/dist/tippy.css"
 const sanityClient = require("@sanity/client")
 const client = sanityClient({
   projectId: "a2c3b7gr",
-  dataset: "first",
+  dataset: "second",
   useCdn: false,
 })
 
@@ -24,7 +24,10 @@ const Marker = ({ country }) => {
         <div>
           <div>{country.name}</div>
           <div sx={{}}>
-            <span>Fall: {country.cases} </span>
+            <span>{country.cases} fall </span>
+          </div>
+          <div sx={{ color: "primary" }}>
+            <span>{country.newCases} nya </span>
           </div>
         </div>
       }
