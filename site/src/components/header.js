@@ -39,14 +39,11 @@ const Header = ({ siteTitle }) => {
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 sx={{ my: 2 }}>
         <Link to="/" sx={{ color: "text", textDecoration: "none" }}>
           COVID-19 Sverige
         </Link>
       </h1>
-      <h4>
-        {weekday} {day} {month}
-      </h4>
       <h5>
         <a
           rel="noopener noreferrer"
