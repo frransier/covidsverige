@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import logo from "../images/covid19.jpg"
+import logo from "../images/meta.png"
 
 function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
