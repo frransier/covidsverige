@@ -1,0 +1,107 @@
+[
+  {
+    "Region": "Blekinge",
+    "lat": 56.164977,
+    "lng": 15.586302
+  },
+  {
+    "Region": "Dalarna",
+    "lat": 60.489721,
+    "lng": 15.431173
+  },
+  {
+    "Region": "Gotland",
+    "lat": 57.522798,
+    "lng": 18.475893
+  },
+  {
+    "Region": "Gävleborg",
+    "lat": 60.67925,
+    "lng": 17.141586
+  },
+  {
+    "Region": "Halland",
+    "lat": 56.679149,
+    "lng": 12.857219
+  },
+  {
+    "Region": "Jämtland",
+    "lat": 63.184578,
+    "lng": 14.633611
+  },
+  {
+    "Region": "Jönköping",
+    "lat": 57.790339,
+    "lng": 14.163528
+  },
+  {
+    "Region": "Kalmar",
+    "lat": 56.667243,
+    "lng": 16.357313
+  },
+  {
+    "Region": "Kronoberg",
+    "lat": 56.88264,
+    "lng": 14.804439
+  },
+  {
+    "Region": "Norrbotten",
+    "lat": 66.608359,
+    "lng": 19.822533
+  },
+  {
+    "Region": "Skåne",
+    "lat": 55.709683,
+    "lng": 13.189754
+  },
+  {
+    "Region": "Stockholm",
+    "lat": 59.335873,
+    "lng": 18.069936
+  },
+  {
+    "Region": "Södermanland",
+    "lat": 59.060136,
+    "lng": 16.587406
+  },
+  {
+    "Region": "Uppsala",
+    "lat": 59.866658,
+    "lng": 17.640588
+  },
+  {
+    "Region": "Värmland",
+    "lat": 59.407011,
+    "lng": 13.510469
+  },
+  {
+    "Region": "Västerbotten",
+    "lat": 64.597716,
+    "lng": 18.675855
+  },
+  {
+    "Region": "Västernorrland",
+    "lat": 62.398574,
+    "lng": 17.30626
+  },
+  {
+    "Region": "Västmanland",
+    "lat": 59.615197,
+    "lng": 16.544746
+  },
+  {
+    "Region": "Västra Götaland",
+    "lat": 57.726355,
+    "lng": 11.972087
+  },
+  {
+    "Region": "Örebro",
+    "lat": 59.278405,
+    "lng": 15.213439
+  },
+  {
+    "Region": "Östergötland",
+    "lat": 58.414381,
+    "lng": 15.620728
+  }
+]

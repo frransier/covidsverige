@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `COVID-19 Worldwide Cases`,
-    description: `ECDC geographic distribution of COVID-19 cases worldwide`,
+    title: `COVID-19 svenska fall`,
+    description: `Geografisk spridning av COVID-19 fall i Sverige`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

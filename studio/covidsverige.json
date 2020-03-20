@@ -1,0 +1,90 @@
+[
+  {
+    "Region": "Blekinge",
+    "Fall": 11
+  },
+  {
+    "Region": "Dalarna",
+    "Fall": 8
+  },
+  {
+    "Region": "Gotland",
+    "Fall": 3
+  },
+  {
+    "Region": "Gävleborg",
+    "Fall": 15
+  },
+  {
+    "Region": "Halland",
+    "Fall": 48
+  },
+  {
+    "Region": "Jämtland",
+    "Fall": 24
+  },
+  {
+    "Region": "Jönköping",
+    "Fall": 46
+  },
+  {
+    "Region": "Kalmar",
+    "Fall": 7
+  },
+  {
+    "Region": "Kronoberg",
+    "Fall": 18
+  },
+  {
+    "Region": "Norrbotten",
+    "Fall": 8
+  },
+  {
+    "Region": "Skåne",
+    "Fall": 216
+  },
+  {
+    "Region": "Stockholm",
+    "Fall": 501
+  },
+  {
+    "Region": "Södermanland",
+    "Fall": 38
+  },
+  {
+    "Region": "Uppsala",
+    "Fall": 67
+  },
+  {
+    "Region": "Värmland",
+    "Fall": 36
+  },
+  {
+    "Region": "Västerbotten",
+    "Fall": 23
+  },
+  {
+    "Region": "Västernorrland",
+    "Fall": 14
+  },
+  {
+    "Region": "Västmanland",
+    "Fall": 18
+  },
+  {
+    "Region": "Västra Götaland",
+    "Fall": 207
+  },
+  {
+    "Region": "Örebro",
+    "Fall": 27
+  },
+  {
+    "Region": "Östergötland",
+    "Fall": 88
+  },
+  {
+    "Region": "Totalt",
+    "Fall": 1423
+  }
+]
