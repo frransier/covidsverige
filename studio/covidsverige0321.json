@@ -1,0 +1,128 @@
+[
+  {
+    "Region": "Blekinge",
+    "Fall": 11,
+    "nya": 12,
+    "senaste": 12
+  },
+  {
+    "Region": "Dalarna",
+    "Fall": 8,
+    "nya": 11,
+    "senaste": 16
+  },
+  {
+    "Region": "Gotland",
+    "Fall": 3,
+    "nya": 5,
+    "senaste": 5
+  },
+  {
+    "Region": "Gävleborg",
+    "Fall": 15,
+    "nya": 17,
+    "senaste": 20
+  },
+  {
+    "Region": "Halland",
+    "Fall": 48,
+    "nya": 51,
+    "senaste": 55
+  },
+  {
+    "Region": "Jämtland",
+    "Fall": 24,
+    "nya": 27,
+    "senaste": 30
+  },
+  {
+    "Region": "Jönköping",
+    "Fall": 46,
+    "nya": 48,
+    "senaste": 51
+  },
+  {
+    "Region": "Kalmar",
+    "Fall": 7,
+    "nya": 9,
+    "senaste": 10
+  },
+  {
+    "Region": "Kronoberg",
+    "Fall": 18,
+    "nya": 18,
+    "senaste": 18
+  },
+  {
+    "Region": "Norrbotten",
+    "Fall": 8,
+    "nya": 9,
+    "senaste": 13
+  },
+  {
+    "Region": "Skåne",
+    "Fall": 216,
+    "nya": 220,
+    "senaste": 223
+  },
+  {
+    "Region": "Stockholm",
+    "Fall": 501,
+    "nya": 606,
+    "senaste": 661
+  },
+  {
+    "Region": "Södermanland",
+    "Fall": 38,
+    "nya": 43,
+    "senaste": 47
+  },
+  {
+    "Region": "Uppsala",
+    "Fall": 67,
+    "nya": 73,
+    "senaste": 74
+  },
+  {
+    "Region": "Värmland",
+    "Fall": 36,
+    "nya": 36,
+    "senaste": 37
+  },
+  {
+    "Region": "Västerbotten",
+    "Fall": 23,
+    "nya": 27,
+    "senaste": 29
+  },
+  {
+    "Region": "Västernorrland",
+    "Fall": 14,
+    "nya": 15,
+    "senaste": 15
+  },
+  {
+    "Region": "Västmanland",
+    "Fall": 18,
+    "nya": 19,
+    "senaste": 21
+  },
+  {
+    "Region": "Västra Götaland",
+    "Fall": 207,
+    "nya": 228,
+    "senaste": 242
+  },
+  {
+    "Region": "Örebro",
+    "Fall": 27,
+    "nya": 33,
+    "senaste": 41
+  },
+  {
+    "Region": "Östergötland",
+    "Fall": 88,
+    "nya": 116,
+    "senaste": 126
+  }
+]

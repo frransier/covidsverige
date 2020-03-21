@@ -11,7 +11,7 @@ import "tippy.js/dist/tippy.css"
 const sanityClient = require("@sanity/client")
 const client = sanityClient({
   projectId: "a2c3b7gr",
-  dataset: "second",
+  dataset: "first",
   useCdn: false,
 })
 
