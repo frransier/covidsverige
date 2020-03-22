@@ -48,18 +48,26 @@ const Marker = ({ country }) => {
 
 const IndexPage = () => {
   const [countries, setCountries] = useState(null)
+  const [total, setTotal] = useState(null)
+  const [newCases, setNewCases] = useState(null)
   useEffect(() => {
     const query = `*[_type == 'country'] | order(cases desc)`
     client.fetch(query).then(x => setCountries(x))
   }, [])
-  // useEffect(() => {
-  //   countries && console.log(countries)
-  // }, [countries])
+  useEffect(() => {
+    countries && console.log(countries)
+    if (countries) {
+      const total = countries.map(x => x.cases).reduce((a, b) => a + b, 0)
+      const newCases = countries.map(x => x.newCases).reduce((a, b) => a + b, 0)
+      setTotal(total)
+      setNewCases(newCases)
+    }
+  }, [countries])
 
   function createMapOptions(maps) {
     return {
-      minZoom: 5,
-      maxZoom: 6,
+      minZoom: 4,
+      maxZoom: 7,
       styles: [
         {
           featureType: "water",
@@ -241,8 +249,15 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="COVID-19 i Sverige" />
+      <SEO title="Coronavirus antal fall i Sverige COVID-19" />
       <div style={{ width: "100%", height: "100vh", fontDisplay: "swap" }}>
+        {countries && (
+          <div>
+            <h2>Totalt:</h2>
+            <h4>{total} fall</h4>
+            <h4 sx={{ color: "primary" }}>{newCases} nya</h4>
+          </div>
+        )}
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBO8H3ggKEXrZwUW9Hz7apfoiceAgAjIjE" }}
           defaultCenter={{ lat: 61.278405, lng: 15.213439 }}
