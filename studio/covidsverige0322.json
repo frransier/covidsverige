@@ -1,0 +1,149 @@
+[
+  {
+    "Region": "Blekinge",
+    "old": 11,
+    "less old": 12,
+    "nya": 12,
+    "senaste": 12
+  },
+  {
+    "Region": "Dalarna",
+    "old": 8,
+    "less old": 11,
+    "nya": 16,
+    "senaste": 16
+  },
+  {
+    "Region": "Gotland",
+    "old": 3,
+    "less old": 5,
+    "nya": 5,
+    "senaste": 5
+  },
+  {
+    "Region": "Gävleborg",
+    "old": 15,
+    "less old": 17,
+    "nya": 20,
+    "senaste": 24
+  },
+  {
+    "Region": "Halland",
+    "old": 48,
+    "less old": 51,
+    "nya": 55,
+    "senaste": 58
+  },
+  {
+    "Region": "Jämtland",
+    "old": 24,
+    "less old": 27,
+    "nya": 30,
+    "senaste": 40
+  },
+  {
+    "Region": "Jönköping",
+    "old": 46,
+    "less old": 48,
+    "nya": 51,
+    "senaste": 55
+  },
+  {
+    "Region": "Kalmar",
+    "old": 7,
+    "less old": 9,
+    "nya": 10,
+    "senaste": 11
+  },
+  {
+    "Region": "Kronoberg",
+    "old": 18,
+    "less old": 18,
+    "nya": 18,
+    "senaste": 18
+  },
+  {
+    "Region": "Norrbotten",
+    "old": 8,
+    "less old": 9,
+    "nya": 13,
+    "senaste": 16
+  },
+  {
+    "Region": "Skåne",
+    "old": 216,
+    "less old": 220,
+    "nya": 223,
+    "senaste": 228
+  },
+  {
+    "Region": "Stockholm",
+    "old": 501,
+    "less old": 606,
+    "nya": 661,
+    "senaste": 760
+  },
+  {
+    "Region": "Södermanland",
+    "old": 38,
+    "less old": 43,
+    "nya": 47,
+    "senaste": 53
+  },
+  {
+    "Region": "Uppsala",
+    "old": 67,
+    "less old": 73,
+    "nya": 74,
+    "senaste": 77
+  },
+  {
+    "Region": "Värmland",
+    "old": 36,
+    "less old": 36,
+    "nya": 37,
+    "senaste": 39
+  },
+  {
+    "Region": "Västerbotten",
+    "old": 23,
+    "less old": 27,
+    "nya": 29,
+    "senaste": 29
+  },
+  {
+    "Region": "Västernorrland",
+    "old": 14,
+    "less old": 15,
+    "nya": 15,
+    "senaste": 15
+  },
+  {
+    "Region": "Västmanland",
+    "old": 18,
+    "less old": 19,
+    "nya": 21,
+    "senaste": 21
+  },
+  {
+    "Region": "Västra Götaland",
+    "old": 207,
+    "less old": 228,
+    "nya": 242,
+    "senaste": 250
+  },
+  {
+    "Region": "Örebro",
+    "old": 27,
+    "less old": 33,
+    "nya": 41,
+    "senaste": 42
+  },
+  {
+    "Region": "Östergötland",
+    "old": 88,
+    "less old": 116,
+    "nya": 126,
+    "senaste": 137
+  }
+]
