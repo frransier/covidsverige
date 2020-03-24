@@ -1,0 +1,191 @@
+[
+  {
+    "Region": "Blekinge",
+    "old": 11,
+    "less old": 12,
+    "almost old": 12,
+    "bleh": 12,
+    "nya": 12,
+    "senaste": 12
+  },
+  {
+    "Region": "Dalarna",
+    "old": 8,
+    "less old": 11,
+    "almost old": 16,
+    "bleh": 16,
+    "nya": 17,
+    "senaste": 30
+  },
+  {
+    "Region": "Gotland",
+    "old": 3,
+    "less old": 5,
+    "almost old": 5,
+    "bleh": 5,
+    "nya": 5,
+    "senaste": 5
+  },
+  {
+    "Region": "Gävleborg",
+    "old": 15,
+    "less old": 17,
+    "almost old": 20,
+    "bleh": 24,
+    "nya": 24,
+    "senaste": 27
+  },
+  {
+    "Region": "Halland",
+    "old": 48,
+    "less old": 51,
+    "almost old": 55,
+    "bleh": 58,
+    "nya": 59,
+    "senaste": 63
+  },
+  {
+    "Region": "Jämtland",
+    "old": 24,
+    "less old": 27,
+    "almost old": 30,
+    "bleh": 40,
+    "nya": 49,
+    "senaste": 55
+  },
+  {
+    "Region": "Jönköping",
+    "old": 46,
+    "less old": 48,
+    "almost old": 51,
+    "bleh": 55,
+    "nya": 56,
+    "senaste": 59
+  },
+  {
+    "Region": "Kalmar",
+    "old": 7,
+    "less old": 9,
+    "almost old": 10,
+    "bleh": 11,
+    "nya": 12,
+    "senaste": 15
+  },
+  {
+    "Region": "Kronoberg",
+    "old": 18,
+    "less old": 18,
+    "almost old": 18,
+    "bleh": 18,
+    "nya": 18,
+    "senaste": 18
+  },
+  {
+    "Region": "Norrbotten",
+    "old": 8,
+    "less old": 9,
+    "almost old": 13,
+    "bleh": 16,
+    "nya": 17,
+    "senaste": 25
+  },
+  {
+    "Region": "Skåne",
+    "old": 216,
+    "less old": 220,
+    "almost old": 223,
+    "bleh": 228,
+    "nya": 231,
+    "senaste": 238
+  },
+  {
+    "Region": "Stockholm",
+    "old": 501,
+    "less old": 606,
+    "almost old": 661,
+    "bleh": 760,
+    "nya": 816,
+    "senaste": 959
+  },
+  {
+    "Region": "Södermanland",
+    "old": 38,
+    "less old": 43,
+    "almost old": 47,
+    "bleh": 53,
+    "nya": 64,
+    "senaste": 66
+  },
+  {
+    "Region": "Uppsala",
+    "old": 67,
+    "less old": 73,
+    "almost old": 74,
+    "bleh": 77,
+    "nya": 82,
+    "senaste": 93
+  },
+  {
+    "Region": "Värmland",
+    "old": 36,
+    "less old": 36,
+    "almost old": 37,
+    "bleh": 39,
+    "nya": 39,
+    "senaste": 42
+  },
+  {
+    "Region": "Västerbotten",
+    "old": 23,
+    "less old": 27,
+    "almost old": 29,
+    "bleh": 29,
+    "nya": 30,
+    "senaste": 30
+  },
+  {
+    "Region": "Västernorrland",
+    "old": 14,
+    "less old": 15,
+    "almost old": 15,
+    "bleh": 15,
+    "nya": 15,
+    "senaste": 17
+  },
+  {
+    "Region": "Västmanland",
+    "old": 18,
+    "less old": 19,
+    "almost old": 21,
+    "bleh": 21,
+    "nya": 23,
+    "senaste": 24
+  },
+  {
+    "Region": "Västra Götaland",
+    "old": 207,
+    "less old": 228,
+    "almost old": 242,
+    "bleh": 250,
+    "nya": 254,
+    "senaste": 265
+  },
+  {
+    "Region": "Örebro",
+    "old": 27,
+    "less old": 33,
+    "almost old": 41,
+    "bleh": 42,
+    "nya": 42,
+    "senaste": 48
+  },
+  {
+    "Region": "Östergötland",
+    "old": 88,
+    "less old": 116,
+    "almost old": 126,
+    "bleh": 137,
+    "nya": 151,
+    "senaste": 181
+  }
+]
