@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = JSON.parse(fs.readFileSync("covidsverige0324.json"));
+const data = JSON.parse(fs.readFileSync("covidsverige0325.json"));
 const coordinates = JSON.parse(fs.readFileSync("geoSverige.json"));
 const _ = require("lodash");
 
@@ -13,6 +13,8 @@ const docs = data
         name: x.Region,
         cases: x.senaste,
         newCases: x.senaste - x.nya,
+        deaths: x.deaths,
+        // newDeaths: something
         lat: geo.lat,
         lng: geo.lng,
       };

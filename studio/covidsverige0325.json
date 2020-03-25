@@ -1,0 +1,233 @@
+[
+  {
+    "Region": "Blekinge",
+    "mars19": 11,
+    "mars20": 12,
+    "mars21": 12,
+    "mars22": 12,
+    "mars23": 12,
+    "nya": 12,
+    "senaste": 12,
+    "deaths": 0
+  },
+  {
+    "Region": "Dalarna",
+    "mars19": 8,
+    "mars20": 11,
+    "mars21": 16,
+    "mars22": 16,
+    "mars23": 17,
+    "nya": 30,
+    "senaste": 40,
+    "deaths": 1
+  },
+  {
+    "Region": "Gotland",
+    "mars19": 3,
+    "mars20": 5,
+    "mars21": 5,
+    "mars22": 5,
+    "mars23": 5,
+    "nya": 5,
+    "senaste": 5,
+    "deaths": 0
+  },
+  {
+    "Region": "Gävleborg",
+    "mars19": 15,
+    "mars20": 17,
+    "mars21": 20,
+    "mars22": 24,
+    "mars23": 24,
+    "nya": 27,
+    "senaste": 32,
+    "deaths": 0
+  },
+  {
+    "Region": "Halland",
+    "mars19": 48,
+    "mars20": 51,
+    "mars21": 55,
+    "mars22": 58,
+    "mars23": 59,
+    "nya": 63,
+    "senaste": 66,
+    "deaths": 0
+  },
+  {
+    "Region": "Jämtland",
+    "mars19": 24,
+    "mars20": 27,
+    "mars21": 30,
+    "mars22": 40,
+    "mars23": 49,
+    "nya": 55,
+    "senaste": 59,
+    "deaths": 0
+  },
+  {
+    "Region": "Jönköping",
+    "mars19": 46,
+    "mars20": 48,
+    "mars21": 51,
+    "mars22": 55,
+    "mars23": 56,
+    "nya": 59,
+    "senaste": 65,
+    "deaths": 0
+  },
+  {
+    "Region": "Kalmar",
+    "mars19": 7,
+    "mars20": 9,
+    "mars21": 10,
+    "mars22": 11,
+    "mars23": 12,
+    "nya": 15,
+    "senaste": 17,
+    "deaths": 0
+  },
+  {
+    "Region": "Kronoberg",
+    "mars19": 18,
+    "mars20": 18,
+    "mars21": 18,
+    "mars22": 18,
+    "mars23": 18,
+    "nya": 18,
+    "senaste": 19,
+    "deaths": 0
+  },
+  {
+    "Region": "Norrbotten",
+    "mars19": 8,
+    "mars20": 9,
+    "mars21": 13,
+    "mars22": 16,
+    "mars23": 17,
+    "nya": 25,
+    "senaste": 30,
+    "deaths": 0
+  },
+  {
+    "Region": "Skåne",
+    "mars19": 216,
+    "mars20": 220,
+    "mars21": 223,
+    "mars22": 228,
+    "mars23": 231,
+    "nya": 238,
+    "senaste": 246,
+    "deaths": 3
+  },
+  {
+    "Region": "Stockholm",
+    "mars19": 501,
+    "mars20": 606,
+    "mars21": 661,
+    "mars22": 760,
+    "mars23": 816,
+    "nya": 959,
+    "senaste": 1070,
+    "deaths": 21
+  },
+  {
+    "Region": "Södermanland",
+    "mars19": 38,
+    "mars20": 43,
+    "mars21": 47,
+    "mars22": 53,
+    "mars23": 64,
+    "nya": 66,
+    "senaste": 85,
+    "deaths": 8
+  },
+  {
+    "Region": "Uppsala",
+    "mars19": 67,
+    "mars20": 73,
+    "mars21": 74,
+    "mars22": 77,
+    "mars23": 82,
+    "nya": 93,
+    "senaste": 102,
+    "deaths": 3
+  },
+  {
+    "Region": "Värmland",
+    "mars19": 36,
+    "mars20": 36,
+    "mars21": 37,
+    "mars22": 39,
+    "mars23": 39,
+    "nya": 42,
+    "senaste": 45,
+    "deaths": 1
+  },
+  {
+    "Region": "Västerbotten",
+    "mars19": 23,
+    "mars20": 27,
+    "mars21": 29,
+    "mars22": 29,
+    "mars23": 30,
+    "nya": 30,
+    "senaste": 33,
+    "deaths": 0
+  },
+  {
+    "Region": "Västernorrland",
+    "mars19": 14,
+    "mars20": 15,
+    "mars21": 15,
+    "mars22": 15,
+    "mars23": 15,
+    "nya": 17,
+    "senaste": 19,
+    "deaths": 0
+  },
+  {
+    "Region": "Västmanland",
+    "mars19": 18,
+    "mars20": 19,
+    "mars21": 21,
+    "mars22": 21,
+    "mars23": 23,
+    "nya": 24,
+    "senaste": 29,
+    "deaths": 0
+  },
+  {
+    "Region": "Västra Götaland",
+    "mars19": 207,
+    "mars20": 228,
+    "mars21": 242,
+    "mars22": 250,
+    "mars23": 254,
+    "nya": 265,
+    "senaste": 275,
+    "deaths": 1
+  },
+  {
+    "Region": "Örebro",
+    "mars19": 27,
+    "mars20": 33,
+    "mars21": 41,
+    "mars22": 42,
+    "mars23": 42,
+    "nya": 48,
+    "senaste": 58,
+    "deaths": 0
+  },
+  {
+    "Region": "Östergötland",
+    "mars19": 88,
+    "mars20": 116,
+    "mars21": 126,
+    "mars22": 137,
+    "mars23": 151,
+    "nya": 181,
+    "senaste": 203,
+    "deaths": 4
+  }
+]

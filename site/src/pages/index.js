@@ -26,8 +26,15 @@ const Marker = ({ country }) => {
           <div sx={{}}>
             <span>{country.cases} fall </span>
           </div>
-          <div sx={{ color: "primary" }}>
+          <div sx={{}}>
             <span>{country.newCases} nya </span>
+          </div>
+          <br />
+          <div sx={{}}>
+            <span>{country.deaths} dödsfall </span>
+          </div>
+          <div sx={{}}>
+            <span>{country.newDeaths || 0} nya </span>
           </div>
         </div>
       }
@@ -50,6 +57,8 @@ const IndexPage = () => {
   const [countries, setCountries] = useState(null)
   const [total, setTotal] = useState(null)
   const [newCases, setNewCases] = useState(null)
+  const [deaths, setDeaths] = useState(null)
+  const [newDeaths, setNewDeaths] = useState(null)
   useEffect(() => {
     const query = `*[_type == 'country'] | order(cases desc)`
     client.fetch(query).then(x => setCountries(x))
@@ -59,8 +68,14 @@ const IndexPage = () => {
     if (countries) {
       const total = countries.map(x => x.cases).reduce((a, b) => a + b, 0)
       const newCases = countries.map(x => x.newCases).reduce((a, b) => a + b, 0)
+      const deaths = countries.map(x => x.deaths).reduce((a, b) => a + b, 0)
+      const newDeaths = countries
+        .map(x => x.newDeaths)
+        .reduce((a, b) => a + b, 0)
       setTotal(total)
       setNewCases(newCases)
+      setDeaths(deaths)
+      setNewDeaths(newDeaths)
     }
   }, [countries])
 
@@ -252,10 +267,19 @@ const IndexPage = () => {
       <SEO title="Coronavirus antal fall i Sverige COVID-19" />
       <div style={{ width: "100%", height: "100vh", fontDisplay: "swap" }}>
         {countries && (
-          <div>
-            <h2>Totalt:</h2>
+          <div
+            sx={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr 1fr 1fr",
+              alignItems: "center",
+              justifyItems: "center",
+            }}
+          >
             <h4>{total} fall</h4>
+
             <h4 sx={{ color: "primary" }}>{newCases} nya</h4>
+            <h4 sx={{ color: "" }}>{deaths} dödsfall</h4>
+            <h4 sx={{ color: "primary" }}>{newDeaths || 0} nya</h4>
           </div>
         )}
         <GoogleMapReact
@@ -293,7 +317,7 @@ const IndexPage = () => {
           <div
             sx={{
               display: "grid",
-              gridTemplateColumns: "auto  35%",
+              gridTemplateColumns: "auto 35% 35%",
               borderBottom: "solid 1px",
               borderBottomColor: "alternative",
               textAlign: "right",
@@ -303,6 +327,7 @@ const IndexPage = () => {
           >
             <div sx={{ textAlign: "left" }}>Region</div>
 
+            <div>Dödsfall</div>
             <div>Fall</div>
           </div>
           <div sx={{ pb: 4 }}>
@@ -312,7 +337,7 @@ const IndexPage = () => {
                   key={i}
                   sx={{
                     display: "grid",
-                    gridTemplateColumns: "auto  35%",
+                    gridTemplateColumns: "auto  35% 35%",
                     textAlign: "right",
                     bg: i % 2 ? "#f3f3f3" : null,
                     px: 2,
@@ -325,6 +350,9 @@ const IndexPage = () => {
                 >
                   <div sx={{ textAlign: "left" }}>{x.name}</div>
 
+                  <div>
+                    {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
+                  </div>
                   <div>
                     {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
                   </div>
