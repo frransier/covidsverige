@@ -270,7 +270,7 @@ const IndexPage = () => {
           <div
             sx={{
               display: "grid",
-              gridTemplateColumns: "1fr 1fr 1fr 1fr",
+              gridTemplateColumns: "30% 20% 30% 20%",
               alignItems: "center",
               justifyItems: "center",
             }}
