@@ -54,7 +54,7 @@ const Header = ({ siteTitle }) => {
           Källa: Folkhälsomyndigheten aktuellt epidemiologiskt läge
         </a>
       </h5>
-      <h6>Uppdaterad 2020-03-25 14:00</h6>
+      <h6>Uppdaterad 2020-03-26 14:00</h6>
     </div>
   )
 }
