@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = JSON.parse(fs.readFileSync("covidsverige0326.json"));
+const data = JSON.parse(fs.readFileSync("covidsverige0327.json"));
 const coordinates = JSON.parse(fs.readFileSync("geoSverige.json"));
 const _ = require("lodash");
 
@@ -11,10 +11,10 @@ const docs = data
         _type: "country",
         _id: `${Math.round(geo.lat)}${Math.round(geo.lng)}`,
         name: x.Region,
-        cases: x.senaste,
-        newCases: x.senaste - x.nya,
-        deaths: x.newDeaths,
-        newDeaths: x.newDeaths - x.deaths,
+        cases: x.senaste + x.nya,
+        newCases: x.nya,
+        // deaths: x.newDeaths,
+        // newDeaths: x.newDeaths - x.deaths,
         // newDeaths: something
         lat: geo.lat,
         lng: geo.lng,

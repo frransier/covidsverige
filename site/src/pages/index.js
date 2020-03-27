@@ -29,13 +29,6 @@ const Marker = ({ country }) => {
           <div sx={{}}>
             <span>{country.newCases} nya </span>
           </div>
-          <br />
-          <div sx={{}}>
-            <span>{country.deaths} dödsfall </span>
-          </div>
-          <div sx={{}}>
-            <span>{country.newDeaths || 0} nya </span>
-          </div>
         </div>
       }
     >
@@ -270,7 +263,7 @@ const IndexPage = () => {
           <div
             sx={{
               display: "grid",
-              gridTemplateColumns: "30% 20% 30% 20%",
+              gridTemplateColumns: "30% 30%",
               alignItems: "center",
               justifyItems: "center",
             }}
@@ -278,8 +271,8 @@ const IndexPage = () => {
             <h4>{total} fall</h4>
 
             <h4 sx={{ color: "primary" }}>{newCases} nya</h4>
-            <h4 sx={{ color: "" }}>{deaths} dödsfall</h4>
-            <h4 sx={{ color: "primary" }}>{newDeaths || 0} nya</h4>
+            {/* <h4 sx={{ color: "" }}>{deaths} dödsfall</h4>
+            <h4 sx={{ color: "primary" }}>{newDeaths || 0} nya</h4> */}
           </div>
         )}
         <GoogleMapReact
@@ -317,7 +310,7 @@ const IndexPage = () => {
           <div
             sx={{
               display: "grid",
-              gridTemplateColumns: "auto 35% 35%",
+              gridTemplateColumns: "auto 35%",
               borderBottom: "solid 1px",
               borderBottomColor: "alternative",
               textAlign: "right",
@@ -327,7 +320,6 @@ const IndexPage = () => {
           >
             <div sx={{ textAlign: "left" }}>Region</div>
 
-            <div>Dödsfall</div>
             <div>Fall</div>
           </div>
           <div sx={{ pb: 4 }}>
@@ -337,7 +329,7 @@ const IndexPage = () => {
                   key={i}
                   sx={{
                     display: "grid",
-                    gridTemplateColumns: "auto  35% 35%",
+                    gridTemplateColumns: "auto  35%",
                     textAlign: "right",
                     bg: i % 2 ? "#f3f3f3" : null,
                     px: 2,
@@ -350,9 +342,6 @@ const IndexPage = () => {
                 >
                   <div sx={{ textAlign: "left" }}>{x.name}</div>
 
-                  <div>
-                    {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
-                  </div>
                   <div>
                     {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
                   </div>
